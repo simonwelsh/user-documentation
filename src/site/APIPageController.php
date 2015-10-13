@@ -5,6 +5,7 @@ use HHVM\UserDocumentation\APIIndex;
 use HHVM\UserDocumentation\APIType;
 use HHVM\UserDocumentation\HTMLFileRenderable;
 
+
 final class APIPageController extends WebPageController {
   protected string $type = '';
   protected string $api = '';
